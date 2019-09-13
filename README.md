@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive means that they have created different styled sites for different screen sizes. Responsive reacts to the screen size, and will adjust accordingly. For example, if you are on desktop, and shrink it down to mobile size, it will change so that the page doesn't look broken.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means that you have designed the site initially for a mobile screen, and made media queries to style your desktop version accordingly. In media queries, mobile first uses min-width. Desktop first means you have designed the site for desktop, and made media queries for when the screen size is mobile. It uses max-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+62.5% is the 'magic number' because it makes the font-size 10px, which is easier to calculate using rem, rather than the standard 16px font-size. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is using an outside program, with unique syntax, to allow your CSS to have unique abilities, and make your CSS cleaner and more efficient. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I really like nesting CSS elements in preprocessing. It makes things really easy to understand and mimics the style of HTML nesting. The concept that gives me the most trouble would be parametric mixins, only because I find myself going back and forth a bunch making sure that everything is written correctly. Once that is done though, I can clearly see why it is superior in some cases because it makes changes much easier to do later on.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
