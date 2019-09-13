@@ -10,3 +10,10 @@
     display: flex;
     justify-content: center;
 }
+
+//parametric mixin for button
+.button(@btn-bg-color, @porcelain) {
+    background-color: @btn-bg-color;
+    color: @porcelain;
+    width: 20%; 
+}
